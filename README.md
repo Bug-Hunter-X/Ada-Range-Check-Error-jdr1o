@@ -1,0 +1,3 @@
+This repository contains an example of a common error in Ada programming, specifically a range check error. The `bug.ada` file demonstrates the error, while `bugSolution.ada` provides a corrected version.
+
+The error occurs because the range check in the `Check_Range` function is not comprehensive enough.  It only handles cases where the input is within the range 1..10.  It does not explicitly handle potential errors, such as non-integer input or exceptions. The solution demonstrates robust error handling.
